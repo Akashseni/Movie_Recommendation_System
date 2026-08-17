@@ -1,0 +1,19 @@
+# Spin up a local Jenkins controller (with Docker CLI + plugins baked in) so
+# you can point it at this repo and try the full pipeline before wiring up
+# a real Jenkins server. Not needed if you already have Jenkins running.
+version: "3.9"
+
+services:
+  jenkins:
+    build: ./jenkins
+    container_name: movie-recsys-jenkins
+    ports:
+      - "8080:8080"
+      - "50000:50000"
+    volumes:
+      - jenkins_home:/var/jenkins_home
+      - /var/run/docker.sock:/var/run/docker.sock
+    restart: unless-stopped
+
+volumes:
+  jenkins_home:

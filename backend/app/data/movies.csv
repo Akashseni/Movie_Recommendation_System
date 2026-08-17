@@ -1,0 +1,41 @@
+id,title,genres,overview,year,rating
+1,The Matrix,Action Sci-Fi,A hacker discovers reality is a simulation and joins a rebellion against machines,1999,8.7
+2,Inception,Action Sci-Fi Thriller,A thief who steals corporate secrets through dream-sharing technology takes on an impossible job,2010,8.8
+3,Interstellar,Adventure Drama Sci-Fi,A team of explorers travel through a wormhole in space to save humanity,2014,8.6
+4,The Dark Knight,Action Crime Drama,Batman faces the Joker a criminal mastermind who wants to plunge Gotham into anarchy,2008,9.0
+5,Pulp Fiction,Crime Drama,The lives of two mob hitmen a boxer and a gangster intertwine in violent and comedic ways,1994,8.9
+6,Fight Club,Drama Thriller,An insomniac office worker forms an underground fight club that spirals out of control,1999,8.8
+7,Forrest Gump,Drama Romance,A slow-witted man witnesses and influences several defining historical events in America,1994,8.8
+8,The Shawshank Redemption,Drama,Two imprisoned men bond over years finding redemption through acts of common decency,1994,9.3
+9,The Godfather,Crime Drama,The aging patriarch of an organized crime dynasty transfers control to his son,1972,9.2
+10,Goodfellas,Crime Drama Biography,A young man rises through the ranks of a New York mafia family,1990,8.7
+11,Se7en,Crime Drama Mystery,Two detectives hunt a serial killer who uses the seven deadly sins as motives,1995,8.6
+12,The Prestige,Drama Mystery Sci-Fi,Two rival stage magicians engage in a battle to create the ultimate illusion,2006,8.5
+13,Memento,Mystery Thriller,A man with short term memory loss uses notes and tattoos to hunt his wife's killer,2000,8.4
+14,The Departed,Crime Drama Thriller,An undercover cop and a mole in the police attempt to identify each other in Boston,2006,8.5
+15,Whiplash,Drama Music,A young drummer is pushed to his limits by a ruthless instructor at a music conservatory,2014,8.5
+16,La La Land,Comedy Drama Musical Romance,A jazz pianist and an aspiring actress fall in love while pursuing their dreams in Los Angeles,2016,8.0
+17,Toy Story,Animation Adventure Comedy Family,Toys come to life and a cowboy doll feels threatened by a new spaceman toy,1995,8.3
+18,Finding Nemo,Animation Adventure Comedy Family,A clownfish father searches the ocean to find his lost son,2003,8.2
+19,Up,Animation Adventure Comedy Family,An elderly widower ties balloons to his house and flies to South America with a stowaway boy scout,2009,8.3
+20,Coco,Animation Adventure Family Fantasy Musical,A boy is transported to the land of the dead and explores the story of his family,2017,8.4
+21,The Avengers,Action Adventure Sci-Fi,Earth's mightiest heroes assemble to stop an alien invasion led by a vengeful god,2012,8.0
+22,Guardians of the Galaxy,Action Adventure Comedy Sci-Fi,A group of intergalactic misfits band together to save the galaxy,2014,8.0
+23,Mad Max Fury Road,Action Adventure Sci-Fi,A woman rebels against a tyrannical ruler in postapocalyptic Australia with the help of a drifter,2015,8.1
+24,John Wick,Action Crime Thriller,An ex-hitman comes out of retirement to track down the gangsters who took everything from him,2014,7.4
+25,Gladiator,Action Adventure Drama,A betrayed Roman general seeks revenge against the corrupt emperor who murdered his family,2000,8.5
+26,Titanic,Drama Romance,A young aristocrat falls in love with a poor artist aboard the ill fated RMS Titanic,1997,7.9
+27,The Notebook,Drama Romance,A poor young man and a wealthy young woman fall deeply in love in the 1940s American South,2004,7.8
+28,Eternal Sunshine of the Spotless Mind,Drama Romance Sci-Fi,A couple erase each other from their memories after a painful breakup then fall in love again,2004,8.3
+29,Her,Drama Romance Sci-Fi,A lonely writer develops an unlikely relationship with an operating system designed to meet his needs,2013,8.0
+30,The Grand Budapest Hotel,Comedy Drama,A legendary concierge and his protege become involved in the theft of a priceless Renaissance painting,2014,8.1
+31,Parasite,Drama Thriller,Greed and class discrimination threaten a newly formed symbiotic relationship between two families,2019,8.5
+32,Get Out,Horror Mystery Thriller,A young African American man uncovers a disturbing secret when he visits his white girlfriend's family,2017,7.7
+33,A Quiet Place,Horror Drama Sci-Fi,A family must live in silence to avoid monsters that hunt anything that makes a sound,2018,7.5
+34,Hereditary,Horror Drama Mystery,A family unravels dark secrets after the death of their secretive grandmother,2018,7.3
+35,The Conjuring,Horror Mystery Thriller,Paranormal investigators help a family terrorized by a dark presence in their farmhouse,2013,7.5
+36,Dune,Adventure Drama Sci-Fi,A young noble becomes entangled in a war for control of a desert planet full of a valuable resource,2021,8.0
+37,Blade Runner 2049,Drama Mystery Sci-Fi,A young blade runner unearths a secret that leads him to a former blade runner missing for decades,2017,8.0
+38,Arrival,Drama Mystery Sci-Fi,A linguist works with the military to communicate with alien lifeforms after twelve mysterious spacecraft appear,2016,7.9
+39,The Social Network,Biography Drama,The founding of Facebook and the resulting lawsuits between friends and business partners,2010,7.8
+40,The Wolf of Wall Street,Biography Comedy Crime Drama,A stockbroker's rise and fall through crime and corruption on Wall Street,2013,8.2

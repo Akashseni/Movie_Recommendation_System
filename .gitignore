@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+htmlcov/
+.coverage
+*.egg-info/
+
+# Node
+node_modules/
+dist/
+.vite/
+
+# Env
+.env
+
+# OS
+.DS_Store
+
+# Jenkins test output
+backend/test-results.xml
+frontend/test-results.xml
