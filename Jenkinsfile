@@ -54,7 +54,7 @@ pipeline {
             steps {
                 dir('backend') {
                     sh '''
-                        pip install --no-cache-dir -r requirements-dev.txt
+                        pip install --default-timeout=120 --retries=5 --no-cache-dir -r requirements-dev.txt
                         flake8 app --max-line-length=100 --extend-ignore=E203,W503
                         black --check app tests
                     '''
@@ -67,7 +67,7 @@ pipeline {
             steps {
                 dir('backend') {
                     sh '''
-                        pip install --no-cache-dir -r requirements-dev.txt
+                        pip install --default-timeout=120 --retries=5 --no-cache-dir -r requirements-dev.txt
                         pytest tests/ -v --junitxml=test-results.xml --cov=app --cov-report=xml --cov-report=term
                     '''
                 }
