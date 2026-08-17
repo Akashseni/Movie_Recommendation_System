@@ -123,7 +123,7 @@ pipeline {
         stage('Push to Registry') {
             steps {
                 sh '''
-                    echo "$DOCKERHUB_CREDS_PSW" | docker login -u "$DOCKERHUB_CREDS_USR" --password-stdin
+                    echo "$DOCKERHUB_CREDS_PSW" | docker login -u "$DOCKERHUB_USER" --password-stdin
                     docker push ${BACKEND_IMAGE}:${IMAGE_TAG}
                     docker push ${BACKEND_IMAGE}:latest
                     docker push ${FRONTEND_IMAGE}:${IMAGE_TAG}
