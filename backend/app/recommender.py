@@ -5,6 +5,7 @@ Builds a TF-IDF matrix over each movie's combined "genres + overview" text
 and recommends movies by cosine similarity. Kept dependency-light (scikit-learn
 + pandas) so the whole thing is fast to install and test in a CI pipeline.
 """
+
 from __future__ import annotations
 
 import os
@@ -42,9 +43,7 @@ class MovieRecommender:
         self.vectorizer = TfidfVectorizer(stop_words="english")
         self.matrix = self.vectorizer.fit_transform(self.df["soup"])
         self.similarity = cosine_similarity(self.matrix)
-        self._title_index = {
-            t.lower(): i for i, t in enumerate(self.df["title"])
-        }
+        self._title_index = {t.lower(): i for i, t in enumerate(self.df["title"])}
 
     def _validate_schema(self) -> None:
         required = {"id", "title", "genres", "overview", "year", "rating"}
