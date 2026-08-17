@@ -179,7 +179,7 @@ pipeline {
         }
         always {
             sh 'docker system prune -f --filter "until=24h" || true'
-            cleanWs()
+            deleteDir()
         }
     }
 }
