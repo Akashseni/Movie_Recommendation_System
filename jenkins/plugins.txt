@@ -1,8 +1,7 @@
-git:5.2.1
-workflow-aggregator:596.v8c21c963d92d
-docker-workflow:572.v950f58993843
-credentials-binding:657.v2b_19db_a_a_b_dd0
-junit:1264.v264ecc86ecb5
-htmlpublisher:1.35
-pipeline-stage-view:2.34
-blueocean:1.27.14
+git
+workflow-aggregator
+docker-workflow
+credentials-binding
+junit
+htmlpublisher
+pipeline-stage-view
