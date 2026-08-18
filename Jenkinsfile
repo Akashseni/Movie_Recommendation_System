@@ -35,7 +35,7 @@ pipeline {
         IMAGE_TAG         = "${env.BUILD_NUMBER}-${GIT_COMMIT?.take(7) ?: 'local'}"
         BACKEND_IMAGE     = "${DOCKERHUB_USER}/movie-recsys-backend"
         FRONTEND_IMAGE    = "${DOCKERHUB_USER}/movie-recsys-frontend"
-        VITE_API_BASE_URL = "${params.DEPLOY_ENV == 'production' ? 'https://api.movie-recsys.example.com' : 'https://staging-api.movie-recsys.example.com'}"
+        VITE_API_BASE_URL = "${params.DEPLOY_ENV == 'production' ? 'https://api.movie-recsys.example.com' : 'http://localhost:8000'}"
     }
 
     stages {
