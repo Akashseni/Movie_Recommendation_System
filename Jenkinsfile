@@ -147,7 +147,6 @@ pipeline {
                 '''
             }
         }
-
         stage('Smoke Test') {
             when {
                 expression { return !params.SKIP_DEPLOY }
@@ -155,20 +154,22 @@ pipeline {
             steps {
                 sh '''
                     for i in $(seq 1 10); do
-                        if curl -sf http://localhost:8000/health; then
+                        if curl -sf http://backend:8000/health; then
                             echo "Backend is healthy"
                             break
                         fi
                         echo "Waiting for backend..."
                         sleep 3
                     done
-                    curl -sf http://localhost:8000/health
-                    curl -sf http://localhost:3000/ > /dev/null
+
+                    curl -sf http://backend:8000/health
+                    curl -sf http://frontend:80/ > /dev/null
+
+                    echo "Smoke tests passed!"
                 '''
             }
         }
     }
-
     post {
         success {
             echo "Build ${env.BUILD_NUMBER} deployed successfully to ${params.DEPLOY_ENV} (tag: ${env.IMAGE_TAG})"
